@@ -1,0 +1,162 @@
+/* *************************
+   Header & Navigation Bar
+**************************** */
+.navbar{
+	background: #e69900;
+}
+
+.navbar-toggle{
+	background-color: #CCCCCC;
+}
+
+.icon-bar{
+	border-width: thick;
+}
+
+.navbar-brand
+{
+	padding-left: 100px;
+	padding-top: 20px;
+	font-size: 20px;
+	font-family: cursive;
+	text-transform: uppercase;
+}
+
+.navbar ul li a{
+	color:#666666;
+	font-weight: bold;
+	font-size:18px;
+	font-family:Arial;
+	padding-top: 20px;
+}
+
+
+
+.navbar ul li a:hover{
+	color:red;
+	font-weight: bold;
+	font-family:Arial;
+	font-size:18px;
+	padding-top: 20px;
+}
+
+.btn{
+	height: auto;
+	width:auto;
+}
+
+/* ***********
+	body
+************ */
+body{
+	background-color: #CCCCCC;
+}
+
+
+/* ******************
+   Carousel Section
+********************* */
+
+#myCarousel{
+padding-top:100px;
+}
+
+
+/* **************
+	Media Queries
+*********** */
+@media(max-width:320px)
+{
+	padding-top:600px;
+}
+
+
+/* **************
+	Jumbotron Section
+****************** */
+
+.jumbotron
+{
+	background-color: #CCCCCC;
+}
+
+
+/* **********************
+   Three-Column Section
+************************* */
+#images{
+	height:150px;
+	width:150px;
+}
+
+#features{
+	padding-top:20px;
+	text-align: center;
+}
+
+.panel{
+	background-color:#CCCCCC;
+}
+
+
+#features img{
+	margin: 0 0 20px 0;
+}
+
+#features h4{
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+#features p{
+	font-family:arial;
+	color: blue;
+	text-align: center;
+}
+
+
+#features_next
+{
+	text-align: center;
+	font-size: 16px;
+	font-family: Arial;
+	color:blue;
+	padding-left: 20px;
+}
+
+#features_next h5
+{
+	font-size: 22px;
+	text-align: center;
+	color: blue;
+}
+
+
+.visible-xs
+{
+	display:block;
+}
+
+
+/* ***************
+   Footer
+******************* */
+footer{
+	background:#333;
+	color:#eee;
+	font-size:11px;
+	padding: 20px;
+}
+
+ul.unstyled
+{
+	list-style:none;
+	margin-left:-30px;
+}
+
+
+img.social{
+	width:50px;
+	height:50px;
+}
